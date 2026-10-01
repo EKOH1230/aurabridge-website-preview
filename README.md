@@ -2,6 +2,8 @@
 
 An English B2B website preview for AuraBridge. It introduces the proposed positioning and leaves products, contact details, and specific commercial services open until they are confirmed.
 
+**View the website:** https://ekoh1230.github.io/aurabridge-website-preview/
+
 ## View locally
 
 Open `index.html` in a browser. The site uses plain HTML, CSS, and a small JavaScript file, with no build step or dependencies.
