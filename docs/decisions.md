@@ -12,7 +12,7 @@
 ## Pending for review
 
 - Confirm the final English positioning and page copy.
-- Confirm what AuraBridge can actually offer partners, the availability and regional documentation of the 15 selected models, and permission to use manufacturer images or detailed specifications.
+- Confirm what AuraBridge can actually offer partners, the availability and regional documentation of the 15 selected models, and permission for commercial use of manufacturer images or detailed specifications.
 - Confirm legal entity, privacy responsibility, public contact details, and final logo.
 - Decide whether to keep this preview public after review.
 
@@ -23,3 +23,10 @@
 - ObboMed models are described as air mattress systems, not bed frames. JingMeiRui tools are presented as personal care devices, without diagnosis or treatment claims.
 - Product images, prices, purchase actions and AuraBridge sales claims remain absent until rights, supply, market documentation and commercial role are confirmed.
 - The Products page now has three categories: seven air mattress systems, five scalp care tools and three facial care tools. The Home page points to the selection.
+
+## 2026-10-08 — Manufacturer photos added for visual review
+
+- The user reported that the product cards had no photos; the letter graphics were placeholders, not failed image requests.
+- Images were matched to each model's public manufacturer listing and copied into `assets/product-images/` so the preview does not depend on the manufacturers' hotlink settings. Source page and image URLs are recorded in `docs/product-images.json`.
+- ObboMed reuses its OB-3650 main image for OB-2650, OB-3600 and OB-3620. Their model-specific gallery images are used instead. ObboMed card links now open the exact model pages.
+- Image use is for this review preview. Permission for commercial use and final product documentation remain pending; no certification, medical-effect or sales claims were added.

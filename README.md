@@ -13,13 +13,13 @@ Open `index.html` in a browser. The site uses plain HTML, CSS, and a small JavaS
 - `index.html` — introduction
 - `about.html` — purpose and principles
 - `partnerships.html` — potential areas for discussion
-- `products.html` — 15 selected models in three categories
+- `products.html` — 15 selected models with manufacturer photos in three categories
 - `contact.html` — contact placeholder
 
-Shared assets live in `assets/`. The logo is a temporary image provided for the project and may be replaced when the final mark is approved.
+Shared assets live in `assets/`. Product photo sources are recorded in `docs/product-images.json`. The logo is a temporary image provided for the project and may be replaced when the final mark is approved.
 
 ## Content status
 
-This is a review draft. The product list comes from the user's 15-product selection and public manufacturer pages. Product images, prices and ordering are deliberately absent. Before treating the products as available through AuraBridge, confirm the legal entity and commercial role, regional availability, specifications and regulatory documentation, permission to use manufacturer media, actual partnership capabilities, and public contact details. No contact form, tracking, payment, or data collection is connected.
+This is a review draft. The product list comes from the user's 15-product selection and public manufacturer pages. Each card now shows a locally hosted copy of an image from its linked manufacturer listing. Prices and ordering are deliberately absent. Before treating the products as available through AuraBridge, confirm the legal entity and commercial role, regional availability, specifications and regulatory documentation, permission for commercial use of manufacturer media, actual partnership capabilities, and public contact details. No contact form, tracking, payment, or data collection is connected.
 
 Publishing this repository with GitHub Pages makes the preview publicly accessible to anyone with the URL. Keep internal source documents out of this repository.
