@@ -12,6 +12,14 @@
 ## Pending for review
 
 - Confirm the final English positioning and page copy.
-- Confirm what AuraBridge can actually offer partners and which products may be shown.
+- Confirm what AuraBridge can actually offer partners, the availability and regional documentation of the 15 selected models, and permission to use manufacturer images or detailed specifications.
 - Confirm legal entity, privacy responsibility, public contact details, and final logo.
 - Decide whether to keep this preview public after review.
+
+## 2026-10-08 — Fifteen selected products added
+
+- Source: user's request to publish the models listed in the Codex task “15款产品选择”; that task selected seven ObboMed air mattress systems and eight JingMeiRui personal care tools for a hospital and care institution B2B audience.
+- Product names and model numbers were checked against the manufacturers' public websites. Each card links to a manufacturer page or range; ObboMed's public range is linked because a stable per-model URL was not verified.
+- ObboMed models are described as air mattress systems, not bed frames. JingMeiRui tools are presented as personal care devices, without diagnosis or treatment claims.
+- Product images, prices, purchase actions and AuraBridge sales claims remain absent until rights, supply, market documentation and commercial role are confirmed.
+- The Products page now has three categories: seven air mattress systems, five scalp care tools and three facial care tools. The Home page points to the selection.
