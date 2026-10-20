@@ -12,7 +12,7 @@
 ## Pending for review
 
 - Confirm the final English positioning and page copy.
-- Confirm what AuraBridge can actually offer partners, the availability and regional documentation of the 15 selected models, and permission for commercial use of manufacturer images or detailed specifications.
+- Confirm what AuraBridge can actually offer partners, the availability and regional documentation of the four models now on the site, and permission for commercial use of factory images or detailed specifications.
 - Confirm legal entity, privacy responsibility, public contact details, and final logo.
 - Decide whether to keep this preview public after review.
 
@@ -30,3 +30,18 @@
 - Images were matched to each model's public manufacturer listing and copied into `assets/product-images/` so the preview does not depend on the manufacturers' hotlink settings. Source page and image URLs are recorded in `docs/product-images.json`.
 - ObboMed reuses its OB-3650 main image for OB-2650, OB-3600 and OB-3620. Their model-specific gallery images are used instead. ObboMed card links now open the exact model pages.
 - Image use is for this review preview. Permission for commercial use and final product documentation remain pending; no certification, medical-effect or sales claims were added.
+
+## 2026-10-20 — Four approved products replace the fifteen-model preview
+
+- Source: founder's approval to show three beauty devices and the lowest-priced medical air mattress. Certification questions stay open.
+- The products page and the home-page highlights now show only KF-2212, KH-2406, KH-2307 and OB-1600, with beauty devices first and the mattress last.
+- Copy uses confirmed product details only. No prices, certification marks or treatment claims. KH-2307 is described for scalp care and essential-oil or serum application, without a reservoir volume. KH-2406 copy does not mention drugs or hair-growth claims.
+- Photos are stored in `assets/product-images/` and listed in `docs/product-images.json`. The KH-2406 photo whose title contains 米诺 was not used. Unconfirmed millilitre labels on KH-2307 photos were covered, as was a line on the third photo about opening skin channels. Conflicting size callouts and a free-packaging line on the fourth KH-2307 photo were covered as well.
+- Each card uses “Request a quote”, linking to the contact page. The contact channel itself is still unconfirmed.
+
+## 2026-10-20 — Present the range as AuraBridge
+
+- Founder approval on the product pull request: remove the supplier name from the site and replace internal-review wording with customer-facing copy.
+- Beauty devices are presented as the AuraBridge range. ObboMed stays on the air mattress.
+- Corner brand marks on the beauty-device photos were covered where they sat on a plain background.
+- Visible preview, review, and draft labels were rewritten as wholesale B2B copy. Prices, certification claims, and treatment claims stay off the site.

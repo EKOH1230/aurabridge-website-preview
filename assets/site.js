@@ -15,3 +15,18 @@ if (menuButton && siteNav) {
     }
   });
 }
+
+document.querySelectorAll('[data-gallery]').forEach((gallery) => {
+  const main = gallery.querySelector('[data-gallery-main]');
+  const thumbs = gallery.querySelectorAll('[data-gallery-thumb]');
+  if (!main || !thumbs.length) return;
+
+  thumbs.forEach((button) => {
+    button.addEventListener('click', () => {
+      main.src = button.dataset.src;
+      main.alt = button.dataset.alt;
+      thumbs.forEach((item) => item.setAttribute('aria-pressed', 'false'));
+      button.setAttribute('aria-pressed', 'true');
+    });
+  });
+});
