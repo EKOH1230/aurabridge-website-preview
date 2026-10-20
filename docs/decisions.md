@@ -60,3 +60,8 @@
 
 - The homepage hero graphic (pale sphere, arch, and orbit lines) is replaced by a collage of the KF-2212, KH-2406, and KH-2307 photos already in the repository.
 - A back-to-top button appears at the bottom-right after the page is scrolled. The footer links “AuraBridge is a brand of Bright Bridge Group” to brightbridgegroup.com.
+
+## 2026-10-20 — Quote form above the footer
+
+- Each page ends with a Request a quote form: name, email, optional company, product of interest, and message.
+- There is no server. After the required fields pass, the form opens the visitor’s email app with a prefilled message. Social icons stay commented out until accounts exist.
