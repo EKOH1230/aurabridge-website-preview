@@ -1,19 +1,16 @@
 [
   {
     "id": "KF-2212",
-    "page": "https://www.szbetico.com/products/jiemian/dian-dong-gui-jiao-jie-mian-yi.html",
-    "source": "Factory photos supplied for the website preview on 2026-10-20",
     "files": [
       "kf-2212-1.jpg",
       "kf-2212-2.jpg",
       "kf-2212-3.jpg",
       "kf-2212-4.jpg"
-    ]
+    ],
+    "notes": "Corner brand marks were covered. These photos are shown as part of the AuraBridge range."
   },
   {
     "id": "KH-2406",
-    "page": "https://www.szbetico.com/products/toubuhuli/dao-ye-shu.html",
-    "source": "Factory photos supplied for the website preview on 2026-10-20",
     "files": [
       "kh-2406-1.jpg",
       "kh-2406-2.jpg"
@@ -23,25 +20,25 @@
         "upload": "kh2406_1",
         "reason": "The image title contains the characters 米诺 and was not used."
       }
-    ]
+    ],
+    "notes": "Shown as part of the AuraBridge range."
   },
   {
     "id": "KH-2307",
-    "page": "https://www.szbetico.com/products/toubuhuli/KH-2307.html",
-    "source": "Factory photos supplied for the website preview on 2026-10-20. Capacity figures printed on the first two photos were covered because the reservoir volume is not confirmed. A line on the third photo about opening skin channels was covered. On the fourth photo, conflicting millimetre callouts and a free-packaging line were covered so the page does not show a second size or an unconfirmed offer.",
     "files": [
       "kh-2307-1.jpg",
       "kh-2307-2.jpg",
       "kh-2307-3.jpg",
       "kh-2307-4.jpg"
-    ]
+    ],
+    "notes": "Corner brand marks were covered. Capacity figures on the first two photos were covered because the reservoir volume is not confirmed. A line on the third photo about opening skin channels was covered. On the fourth photo, conflicting millimetre callouts and a free-packaging line were covered. Shown as part of the AuraBridge range."
   },
   {
     "id": "OB-1600",
     "page": "https://www.obbomed.com/product/ob-1600-utilityair-mattress-alternating-pressure-ulcer-prevention-mattress-with-low-air-loss-air-2/",
-    "source": "Factory photo supplied for the website preview on 2026-10-20 (ob1600_main)",
     "files": [
       "ob-1600.jpg"
-    ]
+    ],
+    "notes": "ObboMed partner product. The mattress photo did not need a brand-mark cover."
   }
 ]
