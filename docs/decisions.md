@@ -45,3 +45,8 @@
 - Beauty devices are presented as the AuraBridge range. ObboMed stays on the air mattress.
 - Corner brand marks on the beauty-device photos were covered where they sat on a plain background.
 - Visible preview, review, and draft labels were rewritten as wholesale B2B copy. Prices, certification claims, and treatment claims stay off the site.
+
+## 2026-10-20 — Header logo redrawn
+
+- The header used a low-resolution sketch of the bridge and the name, cropped inside a white box.
+- It is now a transparent SVG: a heavier bridge icon, the AuraBridge name, and the same navy and red. The favicon uses the same bridge. The footer wordmark stays set in type.
