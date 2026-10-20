@@ -55,3 +55,8 @@
 
 - The footer and contact page name AuraBridge as a brand of Hong Kong Bright Bridge Group Co., Limited, with the Hong Kong address, phone, and public email.
 - Quote buttons open a mailto to the public address. A cc address is included in those links and is not shown as text on the site.
+
+## 2026-10-20 — Homepage products and back to top
+
+- The homepage hero graphic (pale sphere, arch, and orbit lines) is replaced by a collage of the KF-2212, KH-2406, and KH-2307 photos already in the repository.
+- A back-to-top button appears at the bottom-right after the page is scrolled. The footer links “AuraBridge is a brand of Bright Bridge Group” to brightbridgegroup.com.

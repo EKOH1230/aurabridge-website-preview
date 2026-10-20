@@ -16,6 +16,19 @@ if (menuButton && siteNav) {
   });
 }
 
+const backToTop = document.querySelector('[data-back-to-top]');
+if (backToTop) {
+  const toggleBackToTop = () => {
+    backToTop.hidden = window.scrollY < 480;
+  };
+  toggleBackToTop();
+  window.addEventListener('scroll', toggleBackToTop, { passive: true });
+  backToTop.addEventListener('click', () => {
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+  });
+}
+
 document.querySelectorAll('[data-gallery]').forEach((gallery) => {
   const main = gallery.querySelector('[data-gallery-main]');
   const thumbs = gallery.querySelectorAll('[data-gallery-thumb]');
