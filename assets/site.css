@@ -222,6 +222,21 @@ p { color: var(--muted); line-height: 1.8; }
   .footer-main > :first-child { grid-column: auto; }
 }
 
+.highlight-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; margin: 8px 0 54px; }
+.highlight { display: flex; flex-direction: column; min-width: 0; background: white; border: 1px solid var(--line); box-shadow: 0 14px 32px rgba(25,72,103,.045); }
+.highlight:hover { border-color: #b7d0de; }
+.highlight img { display: block; width: 100%; height: 168px; object-fit: contain; background: #f3f7f9; }
+.highlight span { margin: 14px 16px 0; color: var(--blue); font-size: 11px; font-weight: 800; letter-spacing: .08em; }
+.highlight strong { margin: 6px 16px 16px; color: var(--ink); font-size: 15px; font-weight: 700; letter-spacing: -.03em; line-height: 1.35; }
+
+@media (max-width: 1050px) {
+  .highlight-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 700px) {
+  .highlight-grid { grid-template-columns: 1fr; margin-bottom: 36px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }
