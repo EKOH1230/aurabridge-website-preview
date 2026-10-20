@@ -34,7 +34,7 @@
 ## 2026-10-20 — Four approved products replace the fifteen-model preview
 
 - Source: founder's approval to show three beauty devices and the lowest-priced medical air mattress. Certification questions stay open.
-- The products page and the home-page highlights now show only KF-2212, KH-2406, KH-2307 and OB-1600, with beauty devices first and the mattress last.
+- The products page and the home-page highlights showed the approved beauty devices first and the mattress last.
 - Copy uses confirmed product details only. No prices, certification marks or treatment claims. KH-2307 is described for scalp care and essential-oil or serum application, without a reservoir volume. KH-2406 copy does not mention drugs or hair-growth claims.
 - Photos are stored in `assets/product-images/` and listed in `docs/product-images.json`. The KH-2406 photo whose title contains 米诺 was not used. Unconfirmed millilitre labels on KH-2307 photos were covered, as was a line on the third photo about opening skin channels. Conflicting size callouts and a free-packaging line on the fourth KH-2307 photo were covered as well.
 - Each card uses “Request a quote”, linking to the contact page. The contact channel itself is still unconfirmed.
@@ -58,10 +58,16 @@
 
 ## 2026-10-20 — Homepage products and back to top
 
-- The homepage hero graphic (pale sphere, arch, and orbit lines) is replaced by a collage of the KF-2212, KH-2406, and KH-2307 photos already in the repository.
+- The homepage hero graphic (pale sphere, arch, and orbit lines) is replaced by a collage of the beauty-device photos already in the repository.
 - A back-to-top button appears at the bottom-right after the page is scrolled. The footer links “AuraBridge is a brand of Bright Bridge Group” to brightbridgegroup.com.
 
 ## 2026-10-20 — Quote form above the footer
 
 - Each page ends with a Request a quote form: name, email, optional company, product of interest, and message.
 - There is no server. After the required fields pass, the form opens the visitor’s email app with a prefilled message. Social icons stay commented out until accounts exist.
+
+## 2026-10-20 — Facial brush removed, original logo restored
+
+- The facial cleansing brush is no longer on the site. The range is KH-2406, KH-2307 and OB-1600.
+- The KH-2307 reservoir capacity is 3 ml, from the factory quote.
+- The header uses the original sketch again, with thicker strokes so it stays readable at header size on light and dark backgrounds. The favicon keeps the original bridge and uses a heavier stroke.
