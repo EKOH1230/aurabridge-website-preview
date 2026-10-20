@@ -14,7 +14,7 @@ Open `index.html` in a browser. The site uses plain HTML, CSS, and a small JavaS
 - `about.html` — purpose and principles
 - `partnerships.html` — potential areas for discussion
 - `products.html` — four models in the AuraBridge range, beauty devices first and the air mattress last, with locally hosted photos
-- `contact.html` — contact placeholder
+- `contact.html` — company address, email, and phone
 
 Shared assets live in `assets/`. Product photo sources are recorded in `docs/product-images.json`. The header mark is `assets/aurabridge-logo.svg`, a bridge icon with the AuraBridge name. The favicon uses the same bridge.
 

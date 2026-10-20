@@ -50,3 +50,8 @@
 
 - The header used a low-resolution sketch of the bridge and the name, cropped inside a white box.
 - It is now a transparent SVG: a heavier bridge icon, the AuraBridge name, and the same navy and red. The favicon uses the same bridge. The footer wordmark stays set in type.
+
+## 2026-10-20 — Public contact details
+
+- The footer and contact page name AuraBridge as a brand of Hong Kong Bright Bridge Group Co., Limited, with the Hong Kong address, phone, and public email.
+- Quote buttons open a mailto to the public address. A cc address is included in those links and is not shown as text on the site.
