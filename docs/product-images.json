@@ -2,16 +2,14 @@
   {
     "id": "KH-2406",
     "files": [
-      "kh-2406-1.jpg",
-      "kh-2406-2.jpg"
+      "products/kh-2406/kh-2406-1.jpg",
+      "products/kh-2406/kh-2406-2.jpg",
+      "products/kh-2406/kh-2406-3.jpg",
+      "products/kh-2406/kh-2406-4.jpg",
+      "products/kh-2406/kh-2406-5.jpg",
+      "products/kh-2406/kh-2406-6.jpg"
     ],
-    "omitted": [
-      {
-        "upload": "kh2406_1",
-        "reason": "The image title contains the characters 米诺 and was not used."
-      }
-    ],
-    "notes": "Shown as part of the AuraBridge range."
+    "notes": "Factory photos in assets/products/kh-2406/. kh-2406-1.jpg is the front render and the main image. The others show the applicator taken apart, the applicator heads, two studio photos on white, and the applicator in use."
   },
   {
     "id": "KH-2307",

@@ -71,3 +71,7 @@
 - The facial cleansing brush is no longer on the site. The range is KH-2406, KH-2307 and OB-1600.
 - The KH-2307 reservoir capacity is 3 ml, from the factory quote.
 - The header uses the original sketch again, with thicker strokes so it stays readable at header size on light and dark backgrounds. The favicon keeps the original bridge and uses a heavier stroke.
+
+## 2026-10-22 — KH-2406 factory photos
+
+- KH-2406 uses six factory photos in `assets/products/kh-2406/`. The front render is the main image. The products page shows all six in the thumbnail strip.
