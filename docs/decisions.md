@@ -87,3 +87,7 @@
 - KH-2307 reservoir capacity and weight are “Available on request” because the recorded figures conflict. Dimensions and the 0.25 mm tips stay. Carton quantities stay off the page.
 - Supplier names and medical wording are removed from the public product copy. Compliance text is only “Documentation available on request.”
 - Product grids are one column below 640px, two columns from 640px to 999px, and three columns from 1000px. Pages use viewport-fit=cover and safe-area insets. Tap targets are at least 44px. Product photos use srcset and sizes.
+
+## 2026-10-22 — Gallery arrows
+
+- Detail-page galleries have previous and next controls on the main photo. They loop, follow the selected thumbnail, and also respond to a horizontal swipe and the left and right keys while the gallery is focused. A product with one photo does not show the arrows.

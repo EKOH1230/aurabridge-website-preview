@@ -32,8 +32,10 @@
     <section class="section product-detail">
       <div class="container detail-layout">
         <div class="detail-gallery" data-gallery>
-          <div class="detail-gallery__stage">
+          <div class="detail-gallery__stage" tabindex="-1">
             <img class="detail-gallery__main" src="../assets/product-images/ob-1600.jpg" srcset="../assets/product-images/ob-1600.jpg 1200w" sizes="(min-width: 1000px) 42vw, min(92vw, 520px)" alt="OB-1600 alternating-pressure air mattress" width="1200" height="900" data-gallery-main>
+            <button class="detail-gallery__nav detail-gallery__nav--prev" type="button" data-gallery-prev aria-label="Previous photo" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+            <button class="detail-gallery__nav detail-gallery__nav--next" type="button" data-gallery-next aria-label="Next photo" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
           </div>
           <div class="detail-gallery__thumbs" role="group" aria-label="Photos of OB-1600">
                 <button type="button" aria-pressed="true" aria-label="Show photo 1 of 1" data-gallery-thumb data-src="../assets/product-images/ob-1600.jpg" data-srcset="../assets/product-images/ob-1600.jpg 1200w" data-alt="OB-1600 alternating-pressure air mattress"><img src="../assets/product-images/ob-1600.jpg" srcset="../assets/product-images/ob-1600.jpg 1200w" sizes="72px" alt="" width="1200" height="900"></button>
