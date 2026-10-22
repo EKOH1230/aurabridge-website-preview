@@ -20,6 +20,6 @@ Shared assets live in `assets/`. Product photo sources are recorded in `docs/pro
 
 ## Content status
 
-The product list is KH-2406, KH-2307 and OB-1600. Beauty devices and the air mattress are presented as the AuraBridge range, with no supplier names on the public pages. Photos are stored locally and recorded in `docs/product-images.json`. KH-2406 uses six factory photos, with the front render as the main image. Each product has a detail page. KH-2307 reservoir capacity and weight are listed as available on request. Prices are not shown. Certification and treatment claims are not used. No contact form, tracking, payment, or data collection is connected.
+The site is in English, with Simplified Chinese, French, German, and Spanish copies under `zh/`, `fr/`, `de/`, and `es/`. The product list is KH-2406, KH-2307 and OB-1600. Beauty devices and the air mattress are presented as the AuraBridge range, with no supplier names on the public pages. Photos are stored locally and recorded in `docs/product-images.json`. KH-2406 uses six factory photos, with the front render as the main image. Each product has a detail page. KH-2307 reservoir capacity and weight are listed as available on request. Prices are not shown. Certification and treatment claims are not used. No contact form, tracking, payment, or data collection is connected.
 
 Publishing this repository with GitHub Pages makes the site publicly accessible to anyone with the URL. Keep internal source documents out of this repository.
