@@ -75,3 +75,8 @@
 ## 2026-10-22 — KH-2406 factory photos
 
 - KH-2406 uses six factory photos in `assets/products/kh-2406/`. The front render is the main image. The products page shows all six in the thumbnail strip.
+
+## 2026-10-22 — Navigation order
+
+- The header menu on every page is Home, Products, About, Partnerships, then Contact us.
+- On the homepage, the product range comes before the about and partnership sections.
