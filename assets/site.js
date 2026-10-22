@@ -16,6 +16,26 @@ if (menuButton && siteNav) {
   });
 }
 
+const langSwitch = document.querySelector('[data-lang-switch]');
+if (langSwitch) {
+  const langButton = langSwitch.querySelector('button');
+  const langMenu = langSwitch.querySelector('.lang-switch__menu');
+  const setLangOpen = (open) => {
+    langButton.setAttribute('aria-expanded', String(open));
+    langMenu.hidden = !open;
+  };
+  langButton.addEventListener('click', (event) => {
+    event.stopPropagation();
+    setLangOpen(langButton.getAttribute('aria-expanded') !== 'true');
+  });
+  document.addEventListener('click', (event) => {
+    if (!langSwitch.contains(event.target)) setLangOpen(false);
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') setLangOpen(false);
+  });
+}
+
 const backToTop = document.querySelector('[data-back-to-top]');
 if (backToTop) {
   const toggleBackToTop = () => {
@@ -29,11 +49,14 @@ if (backToTop) {
   });
 }
 
+const quoteLabel = (form, key, fallback) => form?.dataset[key] || fallback;
+
 const applyQuoteIntent = (form, product, intent) => {
   if (!form) return;
   if (product && form.elements.product) form.elements.product.value = product;
+  const sample = quoteLabel(form, 'sampleText', 'I would like to request a sample.');
   if (intent === 'sample' && form.elements.message && !form.elements.message.value.trim()) {
-    form.elements.message.value = 'I would like to request a sample.';
+    form.elements.message.value = sample;
   }
 };
 
@@ -75,17 +98,17 @@ if (quoteForm) {
     const message = quoteForm.elements.message.value.trim();
     let valid = true;
 
-    if (!name) { setQuoteError(quoteForm.elements.name, 'Enter your name.'); valid = false; }
+    if (!name) { setQuoteError(quoteForm.elements.name, quoteLabel(quoteForm, 'errorName', 'Enter your name.')); valid = false; }
     else setQuoteError(quoteForm.elements.name, '');
 
-    if (!email) { setQuoteError(quoteForm.elements.email, 'Enter your email address.'); valid = false; }
-    else if (!quoteEmailOk(email)) { setQuoteError(quoteForm.elements.email, 'Enter a valid email address.'); valid = false; }
+    if (!email) { setQuoteError(quoteForm.elements.email, quoteLabel(quoteForm, 'errorEmail', 'Enter your email address.')); valid = false; }
+    else if (!quoteEmailOk(email)) { setQuoteError(quoteForm.elements.email, quoteLabel(quoteForm, 'errorEmailInvalid', 'Enter a valid email address.')); valid = false; }
     else setQuoteError(quoteForm.elements.email, '');
 
-    if (!product) { setQuoteError(quoteForm.elements.product, 'Choose a product.'); valid = false; }
+    if (!product) { setQuoteError(quoteForm.elements.product, quoteLabel(quoteForm, 'errorProduct', 'Choose a product.')); valid = false; }
     else setQuoteError(quoteForm.elements.product, '');
 
-    if (!message) { setQuoteError(quoteForm.elements.message, 'Enter a message.'); valid = false; }
+    if (!message) { setQuoteError(quoteForm.elements.message, quoteLabel(quoteForm, 'errorMessage', 'Enter a message.')); valid = false; }
     else setQuoteError(quoteForm.elements.message, '');
 
     if (!valid) {
@@ -94,14 +117,15 @@ if (quoteForm) {
     }
 
     const lines = [
-      `Name: ${name}`,
-      `Email: ${email}`,
-      `Company: ${company || '—'}`,
-      `Product of interest: ${product}`,
+      `${quoteLabel(quoteForm, 'labelName', 'Name')}: ${name}`,
+      `${quoteLabel(quoteForm, 'labelEmail', 'Email')}: ${email}`,
+      `${quoteLabel(quoteForm, 'labelCompany', 'Company')}: ${company || '—'}`,
+      `${quoteLabel(quoteForm, 'labelProduct', 'Product of interest')}: ${product}`,
       '',
       message
     ];
-    const href = `mailto:ohashi@brightbridgegroup.com?cc=${encodeURIComponent('ikkei@brightbridgegroup.com')}&subject=${encodeURIComponent(`Quote request - ${product}`)}&body=${encodeURIComponent(lines.join('\n'))}`;
+    const subjectPrefix = quoteLabel(quoteForm, 'quoteSubject', 'Quote request');
+    const href = `mailto:ohashi@brightbridgegroup.com?cc=${encodeURIComponent('ikkei@brightbridgegroup.com')}&subject=${encodeURIComponent(`${subjectPrefix} - ${product}`)}&body=${encodeURIComponent(lines.join('\n'))}`;
     if (typeof window.openQuoteMail === 'function') window.openQuoteMail(href);
     else window.location.href = href;
   });

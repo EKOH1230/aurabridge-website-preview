@@ -4,7 +4,7 @@
 .product-hero h1 em { color: var(--blue); font-style: normal; }
 .product-hero__summary { display: flex; flex-wrap: wrap; gap: 26px 46px; margin-top: 46px; }
 .product-hero__summary span { display: flex; align-items: baseline; gap: 11px; color: #5e7485; font-size: 12px; font-weight: 700; }
-.product-hero__summary strong { color: var(--blue-dark); font-family: 'Segoe UI', Arial, sans-serif; font-size: 26px; font-weight: 600; }
+.product-hero__summary strong { color: var(--blue-dark); font-family: 'Segoe UI', Arial, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', 'Noto Sans CJK SC', sans-serif; font-size: 26px; font-weight: 600; }
 
 .product-intro { background: white; border-bottom: 1px solid var(--line); }
 .product-intro__inner { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 48px; min-height: 119px; }

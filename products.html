@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="Three AuraBridge B2B products: two scalp care devices and one alternating-pressure air mattress. Request a quote.">
-  <meta name="theme-color" content="#123f61">
+  <meta name="theme-color" content="#123f61"><link rel="alternate" hreflang="en" href="https://ekoh1230.github.io/aurabridge-website-preview/products.html"><link rel="alternate" hreflang="zh-Hans" href="https://ekoh1230.github.io/aurabridge-website-preview/zh/products.html"><link rel="alternate" hreflang="fr" href="https://ekoh1230.github.io/aurabridge-website-preview/fr/products.html"><link rel="alternate" hreflang="de" href="https://ekoh1230.github.io/aurabridge-website-preview/de/products.html"><link rel="alternate" hreflang="es" href="https://ekoh1230.github.io/aurabridge-website-preview/es/products.html"><link rel="alternate" hreflang="x-default" href="https://ekoh1230.github.io/aurabridge-website-preview/products.html">
   <title>Products — AuraBridge</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="assets/site.css">
@@ -15,9 +15,7 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="AuraBridge home"><img src="assets/aurabridge-logo.png" alt="AuraBridge" width="1319" height="400"></a>
-      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" data-menu-button><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
-      <nav class="site-nav" id="site-nav" aria-label="Main navigation" data-site-nav><a href="index.html">Home</a><a href="products.html" aria-current="page">Products</a><a href="about.html">About</a><a href="partnerships.html">Partnerships</a><a class="nav-contact" href="contact.html">Contact us <span aria-hidden="true">↗</span></a></nav>
+      <a class="brand" href="index.html" aria-label="AuraBridge home"><img src="assets/aurabridge-logo.png" alt="AuraBridge" width="1319" height="400"></a><div class="header-end"><nav class="site-nav" id="site-nav" aria-label="Main navigation" data-site-nav><a href="index.html">Home</a><a href="products.html" aria-current="page">Products</a><a href="about.html">About</a><a href="partnerships.html">Partnerships</a><a class="nav-contact" href="contact.html">Contact us <span aria-hidden="true">↗</span></a></nav><div class="lang-switch" data-lang-switch><button class="lang-switch__button" type="button" aria-expanded="false" aria-controls="lang-menu" aria-label="Language">EN</button><ul class="lang-switch__menu" id="lang-menu" hidden><li><a href="products.html" hreflang="en" lang="en" aria-current="true">EN</a></li><li><a href="zh/products.html" hreflang="zh-Hans" lang="zh-Hans">中文</a></li><li><a href="fr/products.html" hreflang="fr" lang="fr">FR</a></li><li><a href="de/products.html" hreflang="de" lang="de">DE</a></li><li><a href="es/products.html" hreflang="es" lang="es">ES</a></li></ul></div><button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" data-menu-button><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button></div>
     </div>
   </header>
   <main id="main">
@@ -149,7 +147,7 @@
         </ul>
         -->
       </div>
-      <form class="quote-form" data-quote-form novalidate>
+      <form class="quote-form" data-quote-form novalidate data-quote-subject="Quote request" data-label-name="Name" data-label-email="E-mail" data-label-company="Company" data-label-product="Product of interest" data-sample-text="I would like to request a sample." data-error-name="Enter your name." data-error-email="Enter your email address." data-error-email-invalid="Enter a valid email address." data-error-product="Choose a product." data-error-message="Enter a message.">
         <div class="quote-field">
           <label for="quote-name">Name</label>
           <input id="quote-name" name="name" type="text" autocomplete="name" required aria-required="true" aria-describedby="quote-name-error">
