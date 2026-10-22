@@ -29,8 +29,28 @@ if (backToTop) {
   });
 }
 
+const applyQuoteIntent = (form, product, intent) => {
+  if (!form) return;
+  if (product && form.elements.product) form.elements.product.value = product;
+  if (intent === 'sample' && form.elements.message && !form.elements.message.value.trim()) {
+    form.elements.message.value = 'I would like to request a sample.';
+  }
+};
+
+document.querySelectorAll('[data-quote-open]').forEach((link) => {
+  link.addEventListener('click', () => {
+    applyQuoteIntent(
+      document.querySelector('[data-quote-form]'),
+      link.dataset.product || '',
+      link.dataset.quoteIntent || ''
+    );
+  });
+});
+
 const quoteForm = document.querySelector('[data-quote-form]');
 if (quoteForm) {
+  const quoteIntent = new URLSearchParams(window.location.search).get('intent');
+  if (quoteIntent) applyQuoteIntent(quoteForm, document.body.dataset.product || '', quoteIntent);
   const quoteFields = ['name', 'email', 'product', 'message'].map((name) => quoteForm.elements[name]);
 
   const setQuoteError = (field, message) => {
@@ -95,7 +115,9 @@ document.querySelectorAll('[data-gallery]').forEach((gallery) => {
   thumbs.forEach((button) => {
     button.addEventListener('click', () => {
       main.src = button.dataset.src;
-      main.alt = button.dataset.alt;
+      main.alt = button.dataset.alt || '';
+      if (button.dataset.srcset) main.srcset = button.dataset.srcset;
+      else main.removeAttribute('srcset');
       thumbs.forEach((item) => item.setAttribute('aria-pressed', 'false'));
       button.setAttribute('aria-pressed', 'true');
     });
