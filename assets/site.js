@@ -125,7 +125,7 @@ if (quoteForm) {
       message
     ];
     const subjectPrefix = quoteLabel(quoteForm, 'quoteSubject', 'Quote request');
-    const href = `mailto:ohashi@brightbridgegroup.com?cc=${encodeURIComponent('ikkei@brightbridgegroup.com')}&subject=${encodeURIComponent(`${subjectPrefix} - ${product}`)}&body=${encodeURIComponent(lines.join('\n'))}`;
+    const href = `mailto:info@brightbridgegroup.com?subject=${encodeURIComponent(`${subjectPrefix} - ${product}`)}&body=${encodeURIComponent(lines.join('\n'))}`;
     if (typeof window.openQuoteMail === 'function') window.openQuoteMail(href);
     else window.location.href = href;
   });

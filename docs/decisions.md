@@ -53,8 +53,8 @@
 
 ## 2026-10-20 — Public contact details
 
-- The footer and contact page name AuraBridge as a brand of Hong Kong Bright Bridge Group Co., Limited, with the Hong Kong address, phone, and public email.
-- Quote buttons open a mailto to the public address. A cc address is included in those links and is not shown as text on the site.
+- The footer and contact page name AuraBridge as a brand of Hong Kong Bright Bridge Group Co., Limited, and match the Bright Bridge Group site: the Dongguan mainland office and the Hong Kong holding company addresses (each labelled), the phone, and info@brightbridgegroup.com.
+- Quote buttons open a mailto to info@brightbridgegroup.com, which Ek and his father manage jointly. No cc address is added.
 
 ## 2026-10-20 — Homepage products and back to top
 

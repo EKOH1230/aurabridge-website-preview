@@ -201,6 +201,7 @@ p { color: var(--muted); line-height: 1.8; }
 .footer-main p { max-width: 340px; margin: 20px 0 0; color: #9fbdcc; font-size: 14px; }
 .footer-main h3 { margin: 3px 0 21px; color: #c9dbe5; font-family: 'Segoe UI', Arial, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', 'Noto Sans CJK SC', sans-serif; font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .footer-address { font-style: normal; overflow-wrap: anywhere; }
+.address-label { display: block; margin-bottom: 2px; font-weight: 700; color: inherit; opacity: .85; font-size: .82em; letter-spacing: .06em; text-transform: uppercase; }
 .footer-main p.footer-parent { max-width: 36em; }
 .footer-parent a { display: inline-block; max-width: 100%; padding: 12px 0; color: #e7f3f8; font-weight: 700; line-height: 1.4; text-decoration: underline; text-underline-offset: 3px; }
 .footer-parent a:hover { color: white; }
